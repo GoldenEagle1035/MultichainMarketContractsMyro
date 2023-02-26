@@ -1,0 +1,17 @@
+{
+  "name": "hedera_contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.20.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "solc": "^0.8.18"
+  }
+}
