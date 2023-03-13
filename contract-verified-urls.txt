@@ -9,3 +9,5 @@ https://hashscan.io/testnet/contract/0.0.3548816
 https://better-call.dev/ghostnet/KT1S3s9BCAi9qryYWhopAnTP4jzyyo9etZM6/code
 
 https://testnet.bscscan.com/address/0x02368FC218cde8397162F1D00eDB916DfE28EdD4#code
+
+https://solscan.io/account/CvFsw7irbhPQcCSFhAxo7Xc8gyaCemsVVZhdQ5Ldhdbo?cluster=devnet
