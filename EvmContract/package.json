@@ -1,0 +1,26 @@
+{
+  "name": "hyperxnft-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli -i 1337 -m \"love useless install aerobic just pave flash marriage ethics tool trouble spy\" --gasLimit=0x1fffffffffffff --allowUnlimitedContractSize -e 1000000000",
+    "test": "truffle test ./test/test-coverage.js",
+    "tc": "truffle run coverage --solcoverjs ./.solcover.js --file=\"./test/test-coverage.js\"",
+    "merge": "node sol-merger.js"
+  },
+  "author": "cryptoguy1119",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "sol-merger": "^3.1.0"
+  },
+  "devDependencies": {
+    "solidity-coverage": "^0.7.17"
+  }
+}

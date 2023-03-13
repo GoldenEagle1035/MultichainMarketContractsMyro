@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+marketplace = "9mQisfKUTdSWFdonYYbnA3Lnzks1bR3b3tHerHZAgByt"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/opt/Guardian/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
